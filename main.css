@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    border: 0 solid #e2e8f0;
+    border: 0 solid none;
 }
 html {
     font-family: 'Open Sans', 'Roboto', 'Comic Neue', cursive, 'Noto Sans', sans-serif;
