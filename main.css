@@ -1,7 +1,11 @@
+body {
+    margin: 0;
+    border: 0 solid #e2e8f0;
+}
 html {
     font-family: 'Open Sans', 'Roboto', 'Comic Neue', cursive, 'Noto Sans', sans-serif;
     line-height: 1.5;
-/*     box-sizing: border-box; */
+    box-sizing: border-box;
 }
 .root {
     overflow-y: hidden;
