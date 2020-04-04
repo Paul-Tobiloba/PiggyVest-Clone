@@ -1,7 +1,7 @@
 html {
     font-family: 'Open Sans', 'Roboto', 'Comic Neue', cursive, 'Noto Sans', sans-serif;
     line-height: 1.5;
-    box-sizing: border-box;
+/*     box-sizing: border-box; */
 }
 .root {
     overflow-y: hidden;
@@ -11,13 +11,6 @@ html {
 }
 
 .container {
-    /* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAAGXRFW…DDAgDAsAAAwwIAwLAAADAsAMCwAAAwLAAADAsAUuL/BRgAbdjMWJwXo90AAAAASUVORK5CYII=),
-    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAAGXRFW…CwAAAQFgAAwgIAhAUAgLAAABAWACAsAACEBQDQAf5fgAEAyw11IJv0GU8AAAAASUVORK5CYII=),
-    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAAGXRFW…IAAgsAgQUABBYAEFgACCwAILAAgMACQGABAIEFAD35nwADALRKT8CBeskNAAAAAElFTkSuQmCC),
-    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAAGXRFW…CGBQCAYQEAYFgAgGEBAGBYAAAYFgBgWAAAGBYAwL75gwADAJg9Yl+p8U3/AAAAAElFTkSuQmCC);
-    background-size: 15%, 15%, 15%, 15%;
-    background-position: left -1% top -15%, right -7.5% top -1%, left -5% bottom -10%, right -5% bottom -5%;
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat; */
     padding-top: 3rem;
     padding-bottom: 3rem;
     align-items: center;
