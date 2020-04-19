@@ -8,31 +8,34 @@
 <body>
     <h1>JS TASK 3</h1>
     <script type="text/javascript">
-    function myParam(n) {
-    var myArr = [];
-    for (let i = 1; i <= n; i++) {
+    const numWord = num => {
+    let myArr = [];
+    let word;
+    for (let i = 1; i <= num; i++) {
         if (i % 2 === 0 && i % 3 === 0 && i % 5 === 0) {
-            myArr.push("yu-gi-oh");
+            word = "yu-gi-oh";
         } else if (i % 2 === 0 && i % 3 === 0) {
-            myArr.push("yu-gi");
+            word = "yu-gi";
         } else if (i % 3 === 0 && i % 5 === 0) {
-            myArr.push("gi-oh");
+            word = "gi-oh";
         } else if (i % 2 === 0 && i % 5 === 0) {
-            myArr.push("yu-oh");
+            word = "yu-oh";
         } else if (i % 2 === 0) {
-            myArr.push("yu");
+            word = "yu";
         } else if (i % 3 === 0) {
-            myArr.push("gi");
+            word = "gi";
         } else if (i % 5 === 0) {
-            myArr.push("oh");
+            word = "oh";
         } else {
-            myArr.push(i);
-        };
-    };
+            word = i;
+        }
+      myArr.push(word);
+    }
     console.log(myArr);
-};
-myParam(100);
-myParam(20);
+    return myArr;
+}
+numWord(100);
+numWord(17);
     </script>
 </body>
 </html>
