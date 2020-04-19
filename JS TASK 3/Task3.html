@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS TASK 3</title>
+</head>
+<body>
+    <h1>JS TASK 3</h1>
+    <script type="text/javascript">
+    function myParam(n) {
+    var myArr = [];
+    for (let i = 1; i <= n; i++) {
+        if (i % 2 === 0 && i % 3 === 0 && i % 5 === 0) {
+            myArr.push("yu-gi-oh");
+        } else if (i % 2 === 0 && i % 3 === 0) {
+            myArr.push("yu-gi");
+        } else if (i % 3 === 0 && i % 5 === 0) {
+            myArr.push("gi-oh");
+        } else if (i % 2 === 0 && i % 5 === 0) {
+            myArr.push("yu-oh");
+        } else if (i % 2 === 0) {
+            myArr.push("yu");
+        } else if (i % 3 === 0) {
+            myArr.push("gi");
+        } else if (i % 5 === 0) {
+            myArr.push("oh");
+        } else {
+            myArr.push(i);
+        };
+    };
+    console.log(myArr);
+};
+myParam(100);
+myParam(20);
+    </script>
+</body>
+</html>
